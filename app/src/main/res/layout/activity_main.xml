@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ibtikar.newsapp.MainActivity">
+
+
+    <com.ibtikar.newsapp.PicassoImageView
+        android:background="#000"
+        android:id="@+id/picassoImageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:default_image_url="https://developer.android.com/_static/fac1f4fe01/images/android/touchicon-180.png"
+        app:scale_1_1="true" />
+
+
+</LinearLayout>

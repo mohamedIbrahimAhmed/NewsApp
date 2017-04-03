@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PicassoImageView">
+        <attr name="default_image_url" format="string|reference" />
+        <attr name="default_image_resource" format="integer" />
+        <attr name="scale_16_9" format="boolean" />
+        <attr name="scale_1_1" format="boolean" />
+    </declare-styleable>
+
+
+</resources>
